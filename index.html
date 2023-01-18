@@ -10,13 +10,13 @@
 </head>
 
 <body>
-  <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-    <div class="flex items-center flex-shrink-0 text-white mr-6">
-      <span class="font-semibold text-lg">Cities in the world</span>
+  <nav class="flex items-center justify-between flex-wrap bg-slate-900 p-6">
+    <div class="flex items-center flex-shrink-2 text-white mr-6">
+      <h1 class="font-semibold text-lg">Cities in the world</h1>
     </div>
     <div class="block lg:hidden">
       <button
-        class="flex items-center px-3 py-2 border rounded text-black border-white hover:text-orange-800 hover:border-black">
+        class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-yellow-500 hover:border-yellow-500">
         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <title>Menu</title>
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -31,123 +31,158 @@
       </div>
     </div>
   </nav>
-  <div class="flex justify-center bg-green-300 p-5 h-40">
-    <h2 class="absolute text-5xl mt-5">The most Popular City</h2>
+  <div class="flex justify-center bg-slate-700 p-5 h-40">
+    <h2 class="absolute text-5xl text-white mt-5">The most Popular City</h2>
   </div>
-  <!-- <div class="flex flex-col border-solid border-2 border-sky-500 m-10 w-60">
-    <h2 class="m-2">Raking Most Visited</h2>
-    <div class="m-2 bg-lime-100 h-12 text-end">Name of the City</div>
-    <div class="m-2 bg-lime-100 h-12 text-end">Name of the City</div>
-    <div class="m-2 bg-lime-100 h-12 text-end">Name of the City</div>
 
-    <div class="m-2 bg-lime-100 h-12 text-end">Name of the City</div>
-    <div class="m-2 bg-lime-100 h-12 text-end">Name of the City</div>
-    <div class="m-2 bg-lime-100 h-12 text-end">Name of the City</div>
-  </div>  -->
-  <div class="grid grid-rows-6 border-solid border-2 border-sky-500 m-10 w-60 h-auto">
-    <h2 class="m-2">Raking Most Visited</h2>
-    <div class="m-2 bg-lime-100 h-12">
-      <p class="text-sm text-end m-2">Name of the City</p>
-    </div>
-    <div class="m-2 bg-lime-100 h-12">
-      <p class="text-sm text-end m-2">Name of the City</p>
-    </div>
-    <div class="m-2 bg-lime-100 h-12">
-      <p class="text-sm text-end m-2">Name of the City</p>
-    </div>
-    <div class="m-2 bg-lime-100 h-12">
-      <p class="text-sm text-end m-2">Name of the City</p>
-    </div>
-    <div class="m-2 bg-lime-100 h-12">
-      <p class="text-sm text-end m-2">Name of the City</p>
-    </div>
-    <div class="m-2 bg-lime-100 h-12">
-      <p class="text-sm text-end m-2">Name of the City</p>
-    </div>
-  </div>
-  <div class="w-1/4 grid grid-cols-3 gap-y-2">
-    <!-- Cards -->
-    <div class="bg-black border-solid border-2 border-black max-w-sm rounded overflow-hidden shadow-lg">
-      <img src="src/img/fondo.jpg" alt="fondo-1">
-      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
-        temporibus
-        fugit! Nam vitae
-      </p>
-      <div class="text-right py-3 px-8 text-gray-500 m-2">
-      <button class="bg-teal-400 justify-end hover:bg-lime-100 font-bold py-2 px-3  mb-4 rounded ">Click</button>
+
+  <div class="flex flex-row h-full w-full">
+    
+    <!-- Aside-->
+    <aside class="flex flex-col border-solid  border-2 border-black my-10 mx-10 w-60 h-100">
+      <h2 class="m-2">Raking-Most Visited</h2>
+      <div class=" text-sm m-2 bg-slate-400 h-20">
+        <p class="text-sm text-end m-2">Name of the City</p>
       </div>
-    </div>
-
-    <!-- Cards 2 -->
-    <div class="bg-black border-solid border-2 border-black max-w-sm rounded overflow-hidden shadow-lg">
-      <img src="src/img/fondo.jpg" alt="fondo-1">
-      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
-        temporibus
-        fugit! Nam vitae
-      </p>
-      <div class="text-right py-3 px-8 text-gray-500 m-2">
-      <button class="bg-teal-400 justify-end hover:bg-lime-100 font-bold py-2 px-3  mb-4 rounded ">Click</button>
+      <div class="m-2 bg-slate-400 h-20">
+        <p class="text-sm text-end m-2">Name of the City</p>
       </div>
-    </div>
-
-    <!-- cards 3 -->
-
-
-    <div class="bg-black border-solid border-2 border-black max-w-sm rounded overflow-hidden shadow-lg">
-      <img src="src/img/fondo.jpg" alt="fondo-1">
-      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
-        temporibus
-        fugit! Nam vitae
-      </p>
-      <div class="text-right py-3 px-8 text-gray-500 m-2">
-      <button class="bg-teal-400 justify-end hover:bg-lime-100 font-bold py-2 px-3  mb-4 rounded ">Click</button>
+      <div class="m-2 bg-slate-400 h-20">
+        <p class="text-sm text-end m-2">Name of the City</p>
       </div>
-    </div>
-
-    <!-- cards 4 -->
-
-    <div class="bg-black border-solid border-2 border-black max-w-sm rounded overflow-hidden shadow-lg">
-      <img src="src/img/fondo.jpg" alt="fondo-1">
-      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
-        temporibus
-        fugit! Nam vitae
-      </p>
-      <div class="text-right py-3 px-8 text-gray-500 m-2">
-      <button class="bg-teal-400 justify-end hover:bg-lime-100 font-bold py-2 px-3  mb-4 rounded ">Click</button>
+      <div class="m-2 bg-slate-400 h-20">
+        <p class="text-sm text-end m-2">Name of the City</p>
       </div>
-    </div>
-
-    <!-- cards 5 -->
-    <div class="bg-black border-solid border-2 border-black max-w-sm rounded overflow-hidden shadow-lg">
-      <img src="src/img/fondo.jpg" alt="fondo-1">
-      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
-        temporibus
-        fugit! Nam vitae
-      </p>
-      <div class="text-right py-3 px-8 text-gray-500 m-2">
-      <button class="bg-teal-400 justify-end hover:bg-lime-100 font-bold py-2 px-3  mb-4 rounded ">Click</button>
+      <div class="m-2 bg-slate-400 h-20">
+        <p class="text-sm text-end m-2">Name of the City</p>
       </div>
-    </div>
-
-    <!-- cards 6 -->
-
-    <div class="bg-black border-solid border-2 border-black max-w-sm rounded overflow-hidden shadow-lg">
-      <img src="src/img/fondo.jpg" alt="fondo-1">
-      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
-        temporibus
-        fugit! Nam vitae
-      </p>
-      <div class="text-right py-3 px-8 text-gray-500 m-2">
-      <button class="bg-teal-400 justify-end hover:bg-lime-100 font-bold py-2 px-3  mb-4 rounded ">Click</button>
+      <div class="m-2 bg-slate-400 h-20">
+        <p class="text-sm text-end m-2">Name of the City</p>
       </div>
-    </div>
+    </aside>
+
+
 
    
+    <!-- section Cards -->
+    <section class="grid grid-cols-3 grid-rows-2 m-10">
+      <!-- Cards 1 -->
+      <div class="bg-slate-200 border-solid border-2 mx-2 border-black max-w-xs rounded overflow-hidden shadow-lg">
+        <img src="src/img/fondo.jpg" alt="background-crash">
+        <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
+          temporibus
+          fugit! Nam vitae
+        </p>
+        <div class="text-right py-3 px-8 text-white m-2">
+          <button class="bg-slate-900 justify-end hover:bg-white hover:text-black w-24 font-bold py-2 px-3  rounded-3xl ">Click</button>
+        </div>
+      </div>
 
+      <!-- Cards 2 -->
+      <div class="bg-slate-200 border-solid border-2 mx-2 border-black max-w-xs rounded overflow-hidden shadow-lg">
+        <img src="src/img/fondo.jpg" alt="background-crash">
+        <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
+          temporibus
+          fugit! Nam vitae
+        </p>
+        <div class="text-right py-3 px-8 text-white m-2">
+          <button class="bg-slate-900 justify-end hover:bg-white hover:text-black w-24 font-bold py-2 px-3  rounded-3xl ">Click</button>
+        </div>
+      </div>
+
+      <!-- cards 3 -->
+      <div class="bg-slate-200 border-solid border-2 mx-2 border-black max-w-xs rounded overflow-hidden shadow-lg">
+        <img src="src/img/fondo.jpg" alt="background-crash">
+        <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
+          temporibus
+          fugit! Nam vitae
+        </p>
+        <div class="text-right py-3 px-8 text-white m-2">
+          <button class="bg-slate-900 justify-end hover:bg-white hover:text-black w-24 font-bold py-2 px-3   rounded-3xl ">Click</button>
+        </div>
+      </div>
+
+      <!-- cards 4 -->
+      <div class="bg-slate-200 border-solid border-2 mx-2 my-2 border-black max-w-xs rounded overflow-hidden shadow-lg">
+        <img src="src/img/fondo.jpg" alt="background-crash">
+        <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
+          temporibus
+          fugit! Nam vitae
+        </p>
+        <div class="text-right py-3 px-8 text-white m-2">
+          <button class="bg-slate-900 justify-end hover:bg-white hover:text-black w-24 font-bold py-2 px-3 rounded-3xl ">Click</button>
+        </div>
+      </div>
+
+      <!-- cards 5 -->
+      <div class="bg-slate-200 border-solid my-2 mx-2 border-2 border-black max-w-xs rounded overflow-hidden shadow-lg">
+        <img src="src/img/fondo.jpg" alt="background-crash">
+        <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
+          temporibus
+          fugit! Nam vitae
+        </p>
+        <div class="text-right py-3 px-8 text-white m-2">
+          <button class="bg-slate-900 justify-end hover:bg-white hover:text-black w-24 font-bold py-2 px-3   rounded-3xl ">Click</button>
+        </div>
+      </div>
+
+      <!-- cards 6 -->
+      <div class="bg-slate-200 border-solid  my-2 mx-2  border-2 border-black max-w-xs rounded overflow-hidden shadow-lg">
+        <img src="src/img/fondo.jpg" alt="background-crash">
+        <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vel quo corporis
+          temporibus
+          fugit! Nam vitae
+        </p>
+        <div class="text-right py-3 px-8 text-white m-2">
+          <button class="bg-slate-900 justify-end hover:bg-white hover:text-black w-24 font-bold py-2 px-3 rounded-3xl">Click</button>
+        </div>
+      </div>
+
+  </div>
+  </div>
+
+  <div class=" flex  bg-amber-400 h-96">
+    <div class="flex">
+      <h3 class="flex items-center justify-center">MOST POPULAR RESTAURANT</h3>
+    </div>
+    <!-- <div class="">
+      <div class="w-32 h-32 bg-red-600 rounded-full"></div>
+      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit</p>
+      </div>
+        
+      <div class="w-32 h-32 bg-red-600 rounded-full"></div>
+      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit</p>
+      </div>
+
+      <div class="w-32 h-32 bg-red-600 rounded-full"></div>
+      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit</p>
+      </div>
+
+      <div class="w-32 h-32 bg-red-600 rounded-full"></div>
+      <p class="m-2 text-base">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit</p>
+      </div> -->
 
 
 
   </div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
 
 
 
