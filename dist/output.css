@@ -547,20 +547,12 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
-}
-
-.left-2 {
-  left: 0.5rem;
 }
 
 .m-2 {
@@ -573,10 +565,6 @@ video {
 
 .m-1 {
   margin: 0.25rem;
-}
-
-.m-0 {
-  margin: 0px;
 }
 
 .my-11 {
@@ -653,6 +641,10 @@ video {
 
 .h-32 {
   height: 8rem;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .w-3 {
@@ -842,10 +834,6 @@ video {
 
 .text-right {
   text-align: right;
-}
-
-.text-end {
-  text-align: end;
 }
 
 .text-lg {
