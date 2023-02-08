@@ -13,4 +13,4 @@ https://www.figma.com/file/omX2O0qCLb3tL9Owf41qH4/Cities-in-the-world
 # Tecnologias usadas:
 1. HTML
 2. Tailwind
-3.JS
+3. JS
